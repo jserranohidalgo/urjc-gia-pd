@@ -6,7 +6,7 @@ Intelligence Degree of the University Rey Juan Carlos.
 
 The course material basically includes several notebooks on the following topics:
 
-* Topic 1. [Introduction & schedule](topic1/Intro.pdf) (spanish, URJC specifics)
+* Topic 1. [Introduction & schedule](Intro.pdf) (spanish, URJC specifics)
 * Topic 2. Strongly-typed languages
 * Topic 3. Algebraic data types
 * Topic 4. The Curry-Howard correspondence
@@ -18,7 +18,7 @@ The course material basically includes several notebooks on the following topics
 
 To access these notebooks you need first to install [git](https://git-scm.com/) and clone this repository in your local drive: 
 
-`> git clone https://github.com/jserranohidalgo/urjc-pd.git pd`
+`> git clone https://github.com/jserranohidalgo/urjc-gia-pd.git pd`
 
 Then, install `jupyter` (see instructions below) and run the program:
 
@@ -48,7 +48,15 @@ To install jupyter and run Scala notebooks, follow these steps:
 
 ### Possible problems when installing almond
 
-* The installation command hangs (most likely, on windows)
+* On windows, I can't download the installation scripts of the `almond` Scala kernel through:
+
+	> bitsadmin /transfer downloadCoursierCli https://git.io/coursier-cli "Í%%coursier"
+	> ...
+
+Likely, you are using powershell; use simple `cmd` instead.
+
+
+* Now, the installation command hangs (most likely, on windows)
 
 Execute the installation command with the verbose option enabled (`-v -v`):
 
