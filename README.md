@@ -44,6 +44,7 @@ To install jupyter and run Scala notebooks, follow these steps:
 * Install the package manager [`conda`](https://docs.conda.io/en/latest/miniconda.html), or use `pip`, the python package manager.
 * Install [`jupyter`](https://jupyter.org/install) itself
 * Alternatively, you can also find jupyter notebooks for free when installing [anaconda](https://www.anaconda.com/products/individual-d).
+* Install [Java 8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html#A1096936)
 * Install the Scala plugin [`almond`](https://almond.sh/docs/quick-start-install)
 
 ### Possible problems when installing almond
