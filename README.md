@@ -44,7 +44,7 @@ To install jupyter and run Scala notebooks, follow these steps:
 * Install the package manager [`conda`](https://docs.conda.io/en/latest/miniconda.html), or use `pip`, the python package manager.
 * Install [`jupyter`](https://jupyter.org/install) itself
 * Alternatively, you can also find jupyter notebooks for free when installing [anaconda](https://www.anaconda.com/products/individual-d).
-* Install [Java 8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html#A1096936)
+* Install [Java 8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html#A1096936). Take into account whether your architecture is 32-bit or 64-bit.
 * Install the Scala plugin [`almond`](https://almond.sh/docs/quick-start-install)
 
 ### Possible problems when installing almond
@@ -54,8 +54,16 @@ To install jupyter and run Scala notebooks, follow these steps:
 	> bitsadmin /transfer downloadCoursierCli https://git.io/coursier-cli "Í%%coursier"
 	> ...
 
-Likely, you are using powershell; use simple `cmd` instead.
+Likely, you are using powershell; use simple `cmd` instead. 
 
+Possibly, you will also need to use administration privileges (i.e., run CMD as admin).
+
+
+* In the thir step (".\coursier launch --fork ..."), the following error pops up:
+
+Exception in thream "main" java.lang.Exception: Unrecognized CPU architecture: x86. 
+
+Likely, you need a java version for 64 bits, but you installed one for 32 bits. Check which java version you have by typing: "java -d64 -version".
 
 * Now, the installation command hangs (most likely, on windows)
 
