@@ -65,6 +65,7 @@ Exception in thream "main" java.lang.Exception: Unrecognized CPU architecture: x
 
 Likely, you need a java version for 64 bits, but you installed one for 32 bits. Check which java version you have by typing: "java -d64 -version".
 
+
 * Now, the installation command hangs (most likely, on windows)
 
 Execute the installation command with the verbose option enabled (`-v -v`):
