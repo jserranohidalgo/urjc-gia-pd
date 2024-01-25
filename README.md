@@ -22,7 +22,7 @@ To access these notebooks you need first to install [git](https://git-scm.com/) 
 
 Then, install `jupyter` (see instructions below) and run the program:
 
-`jupyter notebook` 
+`jupyter notebook`  or `jupyter lab`
 
 in the root directory of the repository.
 
