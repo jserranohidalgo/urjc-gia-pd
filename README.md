@@ -45,7 +45,11 @@ To install jupyter and run Scala notebooks, follow these steps:
 * Install [`jupyter`](https://jupyter.org/install) itself
 * Alternatively, you can also find jupyter notebooks for free when installing [anaconda](https://www.anaconda.com/products/individual-d).
 * Install [Java 8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html#A1096936). Take into account whether your architecture is 32-bit or 64-bit.
-* Install the Scala plugin [`almond`](https://almond.sh/docs/quick-start-install)
+* Install the Scala plugin [`almond`](https://almond.sh/docs/quick-start-install). 
+
+For the last step, in order to install the Scala 3 version of the almond kernel, choose the following options: 
+
+`./coursier launch --fork almond:0.14.0-RC14 --scala 3.3.1 -- --install --id scala33 --display-name "Scala 3.3"`
 
 ### Possible problems when installing almond
 
