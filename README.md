@@ -6,7 +6,7 @@ Intelligence Degree of the University Rey Juan Carlos.
 
 The course material basically includes several notebooks on the following topics:
 
-* Topic 1. [Introduction & schedule](Intro.pdf) (spanish, URJC specifics)
+* Topic 1. [Introduction & schedule](topic1/Intro.pdf) (spanish, URJC specifics)
 * Topic 2. Strongly-typed languages
 * Topic 3. Algebraic data types
 * Topic 4. The Curry-Howard correspondence
